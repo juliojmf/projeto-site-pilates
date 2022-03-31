@@ -1,3 +1,72 @@
-h1 {
-  color: red;
+#sobre {
+  padding: 7% 15%;
+  background-color: #fff;
+  text-align: center;
+}
+
+#quem {
+  padding: 7% 15%;
+  background-color: #A1BF60;
+}
+
+#onde {
+  padding: 7% 15%;
+  background-color: #fff;
+}
+
+#cta {
+  padding: 7% 15%;
+  background-color: #A1BF60;
+}
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 0 18px;
+}
+
+
+.navbar-brand {
+  padding: 10px 15px;
+}
+
+.map {
+  text-align: center;
+}
+
+.map-frame {
+  padding: 25px;
+}
+
+.i-footer {
+  font-size: 2.5rem;
+  margin: 20px 10px;
+}
+
+.i-footer:hover {
+  color: #A1BF60;
+}
+
+.text-footer {
+  padding: 3%;
+}
+
+.footer-link {
+  color: #000;
+}
+
+.gustavo-img {
+  float: left;
+  margin-right: 30px;
+  border-radius: 50%;
 }

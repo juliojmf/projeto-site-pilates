@@ -1,49 +1,101 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8" />
   <title>Gustavo Piscelli - Studio de Pilates</title>
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
   <link rel="stylesheet" href="../static/css/styles.css" />
 
 </head>
+
 <body>
-  <section id="title">
-    <div class="container-fluid">
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="">
-          <img alt="" src="../static/images/logo.jpg" class="d-inline-block align-text-top" width="60" height="48" />
-        </a>
+  <header id="header">
+    <div class="bg-image position-relative" style="background: url(../static/images/background.jpg) center center / cover no-repeat;
+             height: 100vh">
+      <div class="mask position-absolute top-0 end-0 bottom-0 start-0" style="background-color: rgba(0, 0, 0, 0.6)">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="">
+            <img alt="" src="../static/images/logo.png" class="d-inline-block align-text-top" width="120" height="96" />
+          </a>
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#footer">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#pricing">Localização</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#cta">Contato</a>
-            </li>
-          </ul>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#header">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sobre">O Pilates</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#quem">Quem somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#onde">Localização</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#cta">Agenda</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="container-fluid" style="text-align: center; color: #fff">
+          <h1>LOGO AQUI</h1>
         </div>
-      </nav>
+      </div>
     </div>
-    <div class="bg-image"
-     style="background-image: url('https://images.unsplash.com/photo-1643446660429-daf6247174fb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1545&q=80');
-            height: 100vh">
+
+  </header>
+
+  <section id="sobre">
+    <h3>Por que fazer pilates?</h3>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sagittis risus nec mi tincidunt gravida. Mauris auctor, lorem non porta ullamcorper, tellus felis vestibulum augue, vitae tristique nibh arcu bibendum purus. Vestibulum at
+      magna augue. In consequat fringilla erat. Sed dignissim accumsan quam, eu aliquam nisl maximus ut. Etiam ac viverra lacus. Fusce sed dictum ligula. Nullam sodales id leo et ultricies. Mauris sit amet auctor lectus. Pellentesque consequat erat
+      sed lorem finibus cursus. Donec eu tortor id mauris vestibulum ornare. Donec congue porttitor ante eu imperdiet. Duis convallis porttitor risus.
+    </p>
+  </section>
+
+  <section id="quem">
+    <div>
+      <img class="gustavo-img" alt="" src="../static/images/gustavo.jpg" />
+      <h3>Quem é Gustavo Piscelli?</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sagittis risus nec mi tincidunt gravida. Mauris auctor, lorem non porta ullamcorper, tellus felis vestibulum augue, vitae tristique nibh arcu bibendum purus. Vestibulum at
+        magna augue. In consequat fringilla erat. Sed dignissim accumsan quam, eu aliquam nisl maximus ut. Etiam ac viverra lacus. Fusce sed dictum ligula. Nullam sodales id leo et ultricies. Mauris sit amet auctor lectus. Pellentesque consequat erat
+        sed lorem finibus cursus. Donec eu tortor id mauris vestibulum ornare. Donec congue porttitor ante eu imperdiet. Duis convallis porttitor risus.
+      </p>
     </div>
   </section>
 
+  <section id="onde">
+    <div class="map">
+      <h3>Onde nos encontrar</h3>
+      <iframe class="map-frame"
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15356.071910919347!2d-48.05034601907959!3d-15.803006046695987!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x317b03fe001a9a6c!2sGustavo%20Piscelli%20Studio%20de%20Pilates!5e0!3m2!1spt-BR!2sbr!4v1648755920070!5m2!1spt-BR!2sbr"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </section>
+
+  <section id="cta">
+    <h3>Agende agora sua aula</h3>
+  </section>
+
+  <footer id="footer">
+    <a class="footer-link" href=""><i class="bi bi-whatsapp i-footer"></i></a>
+    <a class="footer-link" href="https://www.instagram.com/gustavopiscellipilates/"><i class="bi bi-instagram i-footer"></i></a>
+    <p class="text-footer">© Copyright 2022</p>
+  </footer>
 
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
+
 </html>
