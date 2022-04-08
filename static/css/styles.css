@@ -13,10 +13,33 @@ h3 {
   color: #95A658;
 }
 
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  padding: 10px 15px;
+}
+
+.nav-item {
+  color: #fff;
+  font-size: 20px;
+  padding: 0 18px;
+}
+
 #sobre {
   padding: 7% 0%;
   background-color: #fff;
   text-align: center;
+}
+
+.carousel-img {
+  padding: 0% 5%;
+  border-radius: 10%;
+}
+
+.carousel-item {
+  padding: 7% 10%;
 }
 
 #quem {
@@ -24,9 +47,28 @@ h3 {
   background-color: #A1BF60;
 }
 
+.gustavo-img {
+  float: left;
+  margin-right: 30px;
+  border-radius: 100%;
+}
+
+.quem {
+  padding: 5% 0;
+  text-align: justify;
+}
+
 #onde {
   padding: 7% 15%;
   background-color: #fff;
+}
+
+.map {
+  text-align: center;
+}
+
+.map-frame {
+  padding: 25px;
 }
 
 #cta {
@@ -36,33 +78,20 @@ h3 {
   font-size: 1.5rem;
 }
 
+.btn-lg {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.i-cta {
+  margin: 20px;
+  font-weight: bold;
+}
+
 #footer {
   padding: 3% 15%;
   text-align: center;
   background-color: #F2F2F2;
-}
-
-.navbar {
-  padding: 0 0 4.5rem;
-}
-
-.nav-item {
-  color: #fff;
-  font-size: 20px;
-  padding: 0 18px;
-}
-
-
-.navbar-brand {
-  padding: 10px 15px;
-}
-
-.map {
-  text-align: center;
-}
-
-.map-frame {
-  padding: 25px;
 }
 
 .i-footer {
@@ -74,40 +103,10 @@ h3 {
   color: #A1BF60;
 }
 
-.text-footer {
-  padding: 3%;
-}
-
 .footer-link {
   color: #000;
 }
 
-.gustavo-img {
-  float: left;
-  margin-right: 30px;
-  border-radius: 100%;
-}
-
-.carousel-item {
-  padding: 7% 10%;
-}
-
-.carousel-img {
-  padding: 0% 5%;
-  border-radius: 10%;
-}
-
-.quem {
-  padding: 5% 0;
-  text-align: justify;
-}
-
-.i-cta {
-  margin: 20px;
-  font-weight: bold;
-}
-
-.btn-lg {
-  font-weight: bold;
-  font-size: 2rem;
+.text-footer {
+  padding: 3%;
 }
