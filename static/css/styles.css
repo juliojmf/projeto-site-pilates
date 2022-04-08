@@ -1,5 +1,24 @@
+body {
+  font-family: 'Montserrat';
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+h3 {
+  font-size: 2rem;
+  color: #95A658;
+}
+
+p {
+  text-align: justify;
+}
+
 #sobre {
-  padding: 7% 15%;
+  padding: 7% 0%;
   background-color: #fff;
   text-align: center;
 }
@@ -68,5 +87,18 @@
 .gustavo-img {
   float: left;
   margin-right: 30px;
-  border-radius: 50%;
+  border-radius: 100%;
+}
+
+.carousel-item {
+  padding: 7% 10%;
+}
+
+.carousel-img {
+  padding: 0% 5%;
+  border-radius: 10%;
+}
+
+.quem {
+  padding: 5% 0;
 }
